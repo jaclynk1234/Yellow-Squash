@@ -1,0 +1,180 @@
+/*General format for heading and format*/
+h3 {
+    font-size: 30px;
+    color:#223818;
+}
+
+ul.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #596F62;
+}
+
+ul.navigation li {float: left;}
+
+ul.navigation li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+ul.navigation li a:hover {
+    background-color: #F3F9CF;
+    color: #596F62;
+    
+}
+
+body {
+    font-family: 'Open Sans', arvo, sans-serif;
+    background-color:#F3F9CF;
+}
+
+p {
+    font-size: 15px;
+}
+
+/*HOME PAGE*/
+.front {
+    text-align: center;
+    opacity: .8;
+}
+
+.YS{
+    margin:auto;
+    text-align: left;
+    background-color:#FFF78C;
+    color:white;
+    font-size: 37px;
+    height: 100px;
+    box-sizing: border-box;
+    padding:25px;
+}
+
+/*ABOUT US page*/
+.bios {
+    text-align: center;
+}
+ 
+.bios > div {
+     vertical-align: top;
+}
+
+.blocks {
+    display:inline-block;
+    margin: 10px;
+    padding: 10px;
+    width: 270px;
+    height: 200px;
+    text-align: center;
+    background-image: url("wood.jpg");
+}
+
+h1 {
+    font-size: 17px;
+}
+
+h2 {
+    font-size: 17px;
+}
+
+.references {
+    list-style:none;
+}
+
+.references a:link {
+    color:#223818;
+    text-decoration: none;
+}
+
+.veganimg {
+    text-align:center;
+    opacity: .8;
+}
+
+/*GALLERY page*/
+.images {
+    text-align:center;
+    margin:20px;
+}
+
+.images > div {
+    display:inline-block;
+    width:300px;
+    height:400px;
+    margin:10px;
+    vertical-align:top;
+    position:relative;
+}
+.images p {
+    position:absolute;
+    bottom:0px;
+}
+
+/*MENUS page*/
+.menu-page {
+    margin:auto;
+    text-align: center;
+}
+
+.menu {
+    width:300px;
+    height:420px;
+    vertical-align: top;
+    display:inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left:10px;
+    padding-right: 30px;
+    padding-top:10px;
+    text-align: left;
+    background-image: url("wood.jpg");
+}
+
+.menu li {
+    list-style:none;
+}
+
+.menu h1 {
+    text-align: center;
+}
+
+
+
+/*CONTACT page*/
+.contact-page {
+    margin:auto;
+    text-align: center
+}
+
+.contact {
+    width:320px;
+    height:350px;
+    vertical-align: top;
+    display:inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+    margin-left:10px;
+    padding-right: 4px;
+    padding-top:10px;
+    text-align: center;
+    background-image: url("wood.jpg");
+}
+
+.contact h1 {
+    text-align: center;
+}
+
+iframe{
+    width:20vw;
+    height:30vh;
+    margin:15vh, 15vw;
+    border: 3px, solid blue;
+   margin: auto;
+    
+}
